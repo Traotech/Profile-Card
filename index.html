@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<article class="profile-card" data-testid="test-profile-card">
+
+  <!-- Header -->
+  <header class="header">
+    <figure>
+      <img 
+        src="hng.jpg"
+        alt="User profile"
+        data-testid="test-user-avatar"
+      />
+    </figure>
+
+    <div>
+      <h2 data-testid="test-user-name">Rildwan Frontend Developer</h2>
+      <p data-testid="test-user-bio">
+      Frontend developer focused on creating modern, user-friendly web applications while expanding into full-stack development.
+      </p>
+    </div>
+  </header>
+
+  <!-- Time -->
+  <section class="time-box">
+    <p data-testid="test-user-time" id="user-time">
+      Loading time...
+    </p>
+  </section>
+
+  <!-- Social Links -->
+  <nav data-testid="test-user-social-links" class="socials">
+    <a href="https://x.com/trao_webdesign" target="_blank" rel="noopener noreferrer"
+      data-testid="test-user-social-twitter">Twitter</a>
+
+    <a href="https://github.com/Traotech/HNG-to-do" target="_blank" rel="noopener noreferrer"
+      data-testid="test-user-social-github">GitHub</a>
+
+<a 
+  href="https://www.linkedin.com/in/rildwan-oluwatoyosi-075757227"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-testid="test-user-social-linkedin">
+  LinkedIn
+</a>
+  </nav>
+
+  <!-- Hobbies -->
+  <section>
+    <h3>Hobbies</h3>
+    <ul data-testid="test-user-hobbies">
+      <li>Coding</li>
+      <li>Gym</li>
+      <li>Watching tech videos</li>
+      <li>I love traveling</li>
+     
+    </ul>
+  </section>
+
+  <!-- Dislikes -->
+  <section>
+    <h3>Dislikes</h3>
+    <ul data-testid="test-user-dislikes">
+      <li>Procrastination</li>
+      <li>Disorganization</li>
+      <li>Negativity</li>
+    </ul>
+  </section>
+
+</article>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* Card */
+.profile-card {
+  background: white;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Header layout */
+.header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.header img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Name */
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Bio */
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Time */
+.time-box {
+  background: #eef2ff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Socials */
+.socials {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  padding: 8px 12px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.socials a:focus {
+  outline: 2px solid black;
+}
+
+/* Lists */
+section h3 {
+  margin-bottom: 6px;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
